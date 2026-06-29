@@ -103,16 +103,17 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Hello! My name is Kurt Geron. I grew up in New Albany, Indiana, and moved to Mississippi 
+  for college. I developed an interest in computers, even building my first one in 2021! I am a member of 
+  the Men's Volleyball Club and the Delta Tau Delta Fraternity at Ole Miss, and spend most of my time 
+  either on personal health and fitness or a wide range of personal coding projects.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Oxford, MS', Icon: MapIcon},
+    {label: 'Age', text: '21', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'American', Icon: FlagIcon},
+    {label: 'Interests', text: 'Weightlifting, Volleyball, Cooking', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Mississippi (Ole Miss)', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Trace3', Icon: BuildingOffice2Icon},
   ],
 };
 
