@@ -78,7 +78,7 @@ export const heroData: Hero = {
         Presales as a <strong className="text-stone-100">Security Engineer Intern</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Currently I am projected to graduate May of 2027 with a <strong className="text-stone-100">Bachelors of Science in Computer 
+        Currently, I am projected to graduate May of 2027 with a <strong className="text-stone-100">Bachelors of Science in Computer 
         Science</strong> with a focus on CyberSecurity alongside a minor in Mathematics.
       </p>
     </>
@@ -334,28 +334,28 @@ export const testimonial: TestimonialSection = {
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  headerText: 'Get in touch',
+  description: 'Here are the best ways to reach out to me!',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
-    },
-    {
-      type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'kurtgeron.business@gmail.com',
+      href: 'mailto:kurtgeron.business@gmail.com',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@geron_kurt',
+      href: 'https://www.instagram.com/geron_kurt/',
+    },
+    {
+      type: ContactType.LinkedIn,
+      text: 'Kurt Geron',
+      href: 'https://www.linkedin.com/in/kurt-geron/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'kurtgeron',
+      href: 'https://github.com/kurtgeron',
     },
   ],
 };
@@ -364,9 +364,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/kurtgeron'},
+<!--  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},-->
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/kurt-geron/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/geron_kurt/'},
+<!--  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},-->
 ];
