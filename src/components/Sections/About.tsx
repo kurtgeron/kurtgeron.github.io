@@ -9,10 +9,10 @@ const About: FC = memo(() => {
   const {profileImageSrc, description, aboutItems} = aboutData;
   return (
     <Section className="bg-neutral-800" sectionId={SectionId.About}>
-      <div className={classNames('grid grid-cols-1 gap-y-4', {'md:grid-cols-4': !!profileImageSrc})}>
+      <div className={classNames('grid grid-cols-1 gap-y-4 md:gap-x-12', {'md:grid-cols-4': !!profileImageSrc})}>
         {!!profileImageSrc && (
           <div className="col-span-1 flex justify-center md:justify-start">
-            <div className="relative h-54 w-36 overflow-hidden rounded-xl md:-ml-8 md:h-128 md:w-72">
+            <div className="relative h-54 w-36 overflow-hidden rounded-xl md:h-128 md:w-72">
               <Image alt="about-me-image" className="h-full w-full object-cover" src={profileImageSrc} />
             </div>
           </div>
