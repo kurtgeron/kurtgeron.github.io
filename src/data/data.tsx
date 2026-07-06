@@ -268,20 +268,31 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
+    date: '(Projected) May 2027',
+    location: 'University of Mississippi',
+    title: 'Bachelor of Science in Computer Science - <em>Cyber Security</em>',
+    content: (
+        <p>
+          Minor in Mathematics for School of Engineering | GPA: 3.74/4.00
+          Delta Tau Delta Fraternity - Pi Chapter
+          Ole Miss Men's Club Volleyball 
+        </p>
+      ),
+  }
 ];
 
 export const experience: TimelineItem[] = [
+  {
+    date: 'March 2010 - Present',
+    location: 'Awesome Development Company',
+    title: 'Senior UX Engineer',
+    content: (
+      <p>
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
+      </p>
+    ),
+  },
   {
     date: 'March 2010 - Present',
     location: 'Awesome Development Company',
