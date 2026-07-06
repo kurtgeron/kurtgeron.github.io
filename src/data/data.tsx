@@ -273,8 +273,8 @@ export const education: TimelineItem[] = [
     title: 'Bachelor of Science in Computer Science - <em>Cyber Security</em>',
     content: (
         <p>
-          Minor in Mathematics for School of Engineering | GPA: 3.74/4.00 <br ?>
-          Delta Tau Delta Fraternity - Pi Chapter <br ?>
+          Minor in Mathematics for School of Engineering | GPA: 3.74/4.00 \n
+          Delta Tau Delta Fraternity - Pi Chapter "\n"
           Ole Miss Men's Club Volleyball 
         </p>
       ),
