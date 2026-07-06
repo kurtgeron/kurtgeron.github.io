@@ -270,7 +270,7 @@ export const education: TimelineItem[] = [
   {
     date: '(Projected) May 2027',
     location: 'University of Mississippi',
-    title: 'Bachelor of Science in Computer Science - <em>Cyber Security</em>',
+    title: 'Bachelor of Science in Computer Science - <i>Cyber Security</i>',
     content: (
         <p>
           Minor in Mathematics for School of Engineering | GPA: 3.74/4.00 <br></br>  
