@@ -309,9 +309,11 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         {"\u2022"} Drafted data governance, security, and compliance assessment proposals for multiple customers including
-government contractors in line with NIST CSF 2.0, NIST SP 800-171 and CIS Critical Security Controls.
+government contractors in line with NIST CSF 2.0, NIST SP 800-171 and CIS Critical Security Controls. 
+        <br />
         {"\u2022"} Created an Incident Response tabletop exercise for C-suite and IT risk management teams involving critical
-business management platform failures.
+business management platform failures. 
+        <br />
         {"\u2022"} Led research and drafted Statement Of Work (SOW) proposals for CMMC level 1 and 2 engagements. 
       </p>
     ),
@@ -323,9 +325,12 @@ business management platform failures.
     content: (
       <p>
         {"\u2022"} Co-led the creation of a company-wide Business Continuity Plan (BCP), presented the BCP Kickoff meeting
-to all department heads, and created guides and video walkthroughs for BCP unit and process owners.
-        {"\u2022"} Oversaw the BCP Governance Team in collaboration with the Enterprise Risk Manager.
-        {"\u2022"} Coded KQL queries to detect and filter false positives for DDOS attacks appearing in the SIEM.
+to all department heads, and created guides and video walkthroughs for BCP unit and process owners. 
+        <br />
+        {"\u2022"} Oversaw the BCP Governance Team in collaboration with the Enterprise Risk Manager. 
+        <br />
+        {"\u2022"} Coded KQL queries to detect and filter false positives for DDOS attacks appearing in the SIEM. 
+        <br />
         {"\u2022"} Designed HTML phishing emails with tracking links through Mimecast for employee awareness training.
       </p>
     ),
@@ -337,9 +342,11 @@ to all department heads, and created guides and video walkthroughs for BCP unit 
     content: (
       <p>
         {"\u2022"} Provided IT support within the company and its partners in cooperation with employees from different
-countries and continents.
-        {"\u2022"} Developed a maintenance webpage to reroute users directly from the company’s web link.
-        {"\u2022"} Assisted update rollouts and led research for upcoming deployments.
+countries and continents. 
+        <br />
+        {"\u2022"} Developed a maintenance webpage to reroute users directly from the company’s web link. 
+        <br />
+        {"\u2022"} Assisted update rollouts and led research for upcoming deployments. 
       </p>
     ),
   },
