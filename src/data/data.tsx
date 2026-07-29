@@ -122,70 +122,78 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Familiar Programs',
     skills: [
       {
-        name: 'English',
-        level: 10,
+        name: 'Microsoft Sentinel',
+        level: 8,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Microsoft Defender',
+        level: 7,
       },
       {
-        name: 'Spanish',
-        level: 3,
+        name: 'GitHub',
+        level: 6,
+      },
+      {
+        name: 'Mimecast',
+        level: 8,
       },
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Governance, Risk, & Compliance',
     skills: [
       {
-        name: 'React',
+        name: 'Business Continuity Plan',
         level: 9,
       },
       {
-        name: 'Typescript',
+        name: 'Compliance Research',
+        level: 6,
+      },
+      {
+        name: 'Data Governance',
+        level: 7,
+      },
+    ],
+  },
+  {
+    name: 'Technical Skills',
+    skills: [
+      {
+        name: 'Java',
+        level: 8,
+      },
+      {
+        name: 'C/C++',
+        level: 5,
+      },
+      {
+        name: 'SQL/KQL',
         level: 7,
       },
       {
-        name: 'GraphQL',
+        name: 'Bash/PowerShell',
         level: 6,
       },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Security & Operations',
     skills: [
       {
-        name: 'Node.js',
-        level: 8,
+        name: 'Incident Response',
+        level: 7,
       },
       {
-        name: 'Rust',
+        name: 'Threat Hunting',
         level: 5,
       },
       {
-        name: 'Golang',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
+        name: 'SIEM Log Analysis',
+        level: 8,
       },
     ],
   },
@@ -285,35 +293,49 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'May 2026 - August 2026',
+    location: 'Trace3',
+    title: 'Security Engineer Intern',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <ul>
+          <li>Drafted data governance, security, and compliance assessment proposals for multiple customers including
+government contractors in line with NIST CSF 2.0, NIST SP 800-171 and CIS Critical Security Controls.</li>
+          <li>Created an Incident Response tabletop exercise for C-suite and IT risk management teams involving critical
+business management platform failures.</li>
+          <li>Led research and drafted Statement Of Work (SOW) proposals for CMMC level 1 and 2 engagements. </li>
+        </ul>
       </p>
     ),
   },
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'May 2025 - August 2025',
+    location: 'Greenstone Farm Credit Services',
+    title: 'Information Security Intern',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <ul>
+          <li>Co-led the creation of a company-wide Business Continuity Plan (BCP), presented the BCP Kickoff meeting
+to all department heads, and created guides and video walkthroughs for BCP unit and process owners.</li>
+          <li>Oversaw the BCP Governance Team in collaboration with the Enterprise Risk Manager.</li>
+          <li>Coded KQL queries to detect and filter false positives for DDOS attacks appearing in the SIEM.</li>
+          <li>Designed HTML phishing emails with tracking links through Mimecast for employee awareness training.</li>
+        </ul>
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'May 2024 - August 2024',
+    location: 'Intellective',
+    title: 'Support Engineer Intern',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <ul>
+          <li>Provided IT support within the company and its partners in cooperation with employees from different
+countries and continents.</li>
+          <li>Developed a maintenance webpage to reroute users directly from the company’s web link.</li>
+          <li>Assisted update rollouts and led research for upcoming deployments.</li>
+        </ul>
       </p>
     ),
   },
