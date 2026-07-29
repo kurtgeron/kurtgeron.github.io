@@ -143,23 +143,6 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Governance, Risk, & Compliance',
-    skills: [
-      {
-        name: 'Business Continuity Plan',
-        level: 9,
-      },
-      {
-        name: 'Compliance Research',
-        level: 6,
-      },
-      {
-        name: 'Data Governance',
-        level: 7,
-      },
-    ],
-  },
-  {
     name: 'Technical Skills',
     skills: [
       {
@@ -177,6 +160,23 @@ export const skills: SkillGroup[] = [
       {
         name: 'Bash/PowerShell',
         level: 6,
+      },
+    ],
+  },
+  {
+    name: 'Governance, Risk, & Compliance',
+    skills: [
+      {
+        name: 'Business Continuity Plan',
+        level: 9,
+      },
+      {
+        name: 'Compliance Research',
+        level: 6,
+      },
+      {
+        name: 'Data Governance',
+        level: 7,
       },
     ],
   },
@@ -308,13 +308,11 @@ export const experience: TimelineItem[] = [
     title: 'Security Engineer Intern',
     content: (
       <p>
-        <ul>
-          <li>Drafted data governance, security, and compliance assessment proposals for multiple customers including
-government contractors in line with NIST CSF 2.0, NIST SP 800-171 and CIS Critical Security Controls.</li>
-          <li>Created an Incident Response tabletop exercise for C-suite and IT risk management teams involving critical
-business management platform failures.</li>
-          <li>Led research and drafted Statement Of Work (SOW) proposals for CMMC level 1 and 2 engagements. </li>
-        </ul>
+        {"\u2022"} Drafted data governance, security, and compliance assessment proposals for multiple customers including
+government contractors in line with NIST CSF 2.0, NIST SP 800-171 and CIS Critical Security Controls.
+        {"\u2022"} Created an Incident Response tabletop exercise for C-suite and IT risk management teams involving critical
+business management platform failures.
+        {"\u2022"} Led research and drafted Statement Of Work (SOW) proposals for CMMC level 1 and 2 engagements. 
       </p>
     ),
   },
@@ -324,13 +322,11 @@ business management platform failures.</li>
     title: 'Information Security Intern',
     content: (
       <p>
-        <ul>
-          <li>Co-led the creation of a company-wide Business Continuity Plan (BCP), presented the BCP Kickoff meeting
-to all department heads, and created guides and video walkthroughs for BCP unit and process owners.</li>
-          <li>Oversaw the BCP Governance Team in collaboration with the Enterprise Risk Manager.</li>
-          <li>Coded KQL queries to detect and filter false positives for DDOS attacks appearing in the SIEM.</li>
-          <li>Designed HTML phishing emails with tracking links through Mimecast for employee awareness training.</li>
-        </ul>
+        {"\u2022"} Co-led the creation of a company-wide Business Continuity Plan (BCP), presented the BCP Kickoff meeting
+to all department heads, and created guides and video walkthroughs for BCP unit and process owners.
+        {"\u2022"} Oversaw the BCP Governance Team in collaboration with the Enterprise Risk Manager.
+        {"\u2022"} Coded KQL queries to detect and filter false positives for DDOS attacks appearing in the SIEM.
+        {"\u2022"} Designed HTML phishing emails with tracking links through Mimecast for employee awareness training.
       </p>
     ),
   },
@@ -340,12 +336,10 @@ to all department heads, and created guides and video walkthroughs for BCP unit 
     title: 'Support Engineer Intern',
     content: (
       <p>
-        <ul>
-          <li>Provided IT support within the company and its partners in cooperation with employees from different
-countries and continents.</li>
-          <li>Developed a maintenance webpage to reroute users directly from the company’s web link.</li>
-          <li>Assisted update rollouts and led research for upcoming deployments.</li>
-        </ul>
+        {"\u2022"} Provided IT support within the company and its partners in cooperation with employees from different
+countries and continents.
+        {"\u2022"} Developed a maintenance webpage to reroute users directly from the company’s web link.
+        {"\u2022"} Assisted update rollouts and led research for upcoming deployments.
       </p>
     ),
   },
