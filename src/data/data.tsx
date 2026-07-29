@@ -288,6 +288,14 @@ export const education: TimelineItem[] = [
         Ole Miss Men's Club Volleyball 
       </p>
     ),
+    date: 'July 20, 2026',
+    location: 'CompTIA',
+    title: 'CompTIA Security+ Certification',
+    content: (
+      <p>
+        Credential ID: a83b541afbad4b99adbdad3a245b26a0
+      </p>
+    ),
   }
 ];
 
