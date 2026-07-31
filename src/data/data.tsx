@@ -73,13 +73,14 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am an Indiana-native attending the <strong className="text-stone-100">University of Mississippi</strong>, 
-        currently working at <strong className="text-stone-100">Trace3</strong> assisting GRC and DevSecOps with 
+        I am an Indiana-native attending the <strong className="text-stone-100">University of Mississippi</strong>,
+        currently working at <strong className="text-stone-100">Trace3</strong> assisting GRC and DevSecOps with
         Presales as a <strong className="text-stone-100">Security Engineer Intern</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Currently, I am projected to graduate May of 2027 with a <strong className="text-stone-100">Bachelors of Science in Computer 
-        Science</strong> with a focus on CyberSecurity alongside a minor in Mathematics.
+        Currently, I am projected to graduate May of 2027 with a{' '}
+        <strong className="text-stone-100">Bachelors of Science in Computer Science</strong> with a focus on
+        CyberSecurity alongside a minor in Mathematics.
       </p>
     </>
   ),
@@ -281,11 +282,11 @@ export const education: TimelineItem[] = [
     title: 'Bachelor of Science in Computer Science - 𝘊𝘺𝘣𝘦𝘳 𝘚𝘦𝘤𝘶𝘳𝘪𝘵𝘺',
     content: (
       <p>
-        Minor in Mathematics for School of Engineering | GPA: 3.74/4.00 
+        Minor in Mathematics for School of Engineering | GPA: 3.74/4.00
         <br />
-        Delta Tau Delta Fraternity - Pi Chapter 
+        Delta Tau Delta Fraternity - Pi Chapter
         <br />
-        Ole Miss Men's Club Volleyball 
+        Ole Miss Men's Club Volleyball
       </p>
     ),
   },
@@ -293,12 +294,8 @@ export const education: TimelineItem[] = [
     date: 'July 20, 2026',
     location: 'CompTIA',
     title: 'CompTIA Security+ Certification',
-    content: (
-      <p>
-        Credential ID: a83b541afbad4b99adbdad3a245b26a0
-      </p>
-    ),
-  }
+    content: <p>Credential ID: a83b541afbad4b99adbdad3a245b26a0</p>,
+  },
 ];
 
 export const experience: TimelineItem[] = [
@@ -308,13 +305,13 @@ export const experience: TimelineItem[] = [
     title: 'Security Engineer Intern',
     content: (
       <p>
-        {"\u2022"} Drafted data governance, security, and compliance assessment proposals for multiple customers including
-government contractors in line with NIST CSF 2.0, NIST SP 800-171 and CIS Critical Security Controls. 
+        {'\u2022'} Drafted data governance, security, and compliance assessment proposals for multiple customers
+        including government contractors in line with NIST CSF 2.0, NIST SP 800-171 and CIS Critical Security Controls.
         <br />
-        {"\u2022"} Created an Incident Response tabletop exercise for C-suite and IT risk management teams involving critical
-business management platform failures. 
+        {'\u2022'} Created an Incident Response tabletop exercise for C-suite and IT risk management teams involving
+        critical business management platform failures.
         <br />
-        {"\u2022"} Led research and drafted Statement Of Work (SOW) proposals for CMMC level 1 and 2 engagements. 
+        {'\u2022'} Led research and drafted Statement Of Work (SOW) proposals for CMMC level 1 and 2 engagements.
       </p>
     ),
   },
@@ -324,14 +321,14 @@ business management platform failures.
     title: 'Information Security Intern',
     content: (
       <p>
-        {"\u2022"} Co-led the creation of a company-wide Business Continuity Plan (BCP), presented the BCP Kickoff meeting
-to all department heads, and created guides and video walkthroughs for BCP unit and process owners. 
+        {'\u2022'} Co-led the creation of a company-wide Business Continuity Plan (BCP), presented the BCP Kickoff
+        meeting to all department heads, and created guides and video walkthroughs for BCP unit and process owners.
         <br />
-        {"\u2022"} Oversaw the BCP Governance Team in collaboration with the Enterprise Risk Manager. 
+        {'\u2022'} Oversaw the BCP Governance Team in collaboration with the Enterprise Risk Manager.
         <br />
-        {"\u2022"} Coded KQL queries to detect and filter false positives for DDOS attacks appearing in the SIEM. 
+        {'\u2022'} Coded KQL queries to detect and filter false positives for DDOS attacks appearing in the SIEM.
         <br />
-        {"\u2022"} Designed HTML phishing emails with tracking links through Mimecast for employee awareness training.
+        {'\u2022'} Designed HTML phishing emails with tracking links through Mimecast for employee awareness training.
       </p>
     ),
   },
@@ -341,12 +338,12 @@ to all department heads, and created guides and video walkthroughs for BCP unit 
     title: 'Support Engineer Intern',
     content: (
       <p>
-        {"\u2022"} Provided IT support within the company and its partners in cooperation with employees from different
-countries and continents. 
+        {'\u2022'} Provided IT support within the company and its partners in cooperation with employees from different
+        countries and continents.
         <br />
-        {"\u2022"} Developed a maintenance webpage to reroute users directly from the company’s web link. 
+        {'\u2022'} Developed a maintenance webpage to reroute users directly from the company’s web link.
         <br />
-        {"\u2022"} Assisted update rollouts and led research for upcoming deployments. 
+        {'\u2022'} Assisted update rollouts and led research for upcoming deployments.
       </p>
     ),
   },
@@ -412,8 +409,8 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/kurtgeron'},
-//  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  //  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/kurt-geron/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/geron_kurt/'},
-//  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  //  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
