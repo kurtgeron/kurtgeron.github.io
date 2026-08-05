@@ -13,8 +13,9 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 //import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 //import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/walkofchampions.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
@@ -23,10 +24,9 @@ import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
+import heroImage from '../images/walkofchampions.webp';
 import {
   About,
   ContactSection,
@@ -294,7 +294,7 @@ export const education: TimelineItem[] = [
     date: 'July 20, 2026',
     location: 'CompTIA',
     title: 'CompTIA Security+ Certification',
-    content: <p>Credential ID: <a className="text-blue-600 underline" href="https://cp.certmetrics.com/CompTIA/en/public/verify/credential/a83b541afbad4b99adbdad3a245b26a0" rel="noopener noreferrer" target="_blank">a83b541afbad4b99adbdad3a245b26a0</a></p>,
+    content: <p>Credential ID: <a className="text-blue-600 underline" href="https://cp.certmetrics.com/CompTIA/en/public/verify/credential/a83b541afbad4b99adbdad3a245b26a0" rel="noopener noreferrer" target="_blank">Cert</a></p>,
   },
   {
     date: 'August 4, 2026',
@@ -368,7 +368,7 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive outcomes, etc.)',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
