@@ -8,11 +8,25 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
+import {
+  About,
+  ContactSection,
+  ContactType,
+  Hero,
+  HomepageMeta,
+  PortfolioItem,
+  SkillGroup,
+  Social,
+  TestimonialSection,
+  TimelineItem,
+} from './dataDef';
+
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 //import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 //import TwitterIcon from '../components/Icon/TwitterIcon';
+
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
@@ -27,18 +41,6 @@ import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import heroImage from '../images/walkofchampions.webp';
-import {
-  About,
-  ContactSection,
-  ContactType,
-  Hero,
-  HomepageMeta,
-  PortfolioItem,
-  SkillGroup,
-  Social,
-  TestimonialSection,
-  TimelineItem,
-} from './dataDef';
 
 /**
  * Page meta data
@@ -294,13 +296,13 @@ export const education: TimelineItem[] = [
     date: 'July 20, 2026',
     location: 'CompTIA',
     title: 'CompTIA Security+ Certification',
-    content: <p>Credential ID: <a className="text-blue-600 underline" href="https://cp.certmetrics.com/CompTIA/en/public/verify/credential/a83b541afbad4b99adbdad3a245b26a0" rel="noopener noreferrer" target="_blank">Cert</a></p>,
+    content: <p>Credential ID: <a className="text-blue-600 underline" href="https://cp.certmetrics.com/CompTIA/en/public/verify/credential/a83b541afbad4b99adbdad3a245b26a0" rel="noopener noreferr[...]
   },
   {
     date: 'August 4, 2026',
     location: 'Anthropic',
     title: 'Claude Certified Architect - Foundations',
-    content: <p>Verification Link: <a className="text-blue-600 underline" href="https://www.credly.com/badges/45ad420b-f577-4001-8801-597c47d7e558" rel="noopener noreferrer" target="_blank">Credly</a></p>,
+    content: <p>Verification Link: <a className="text-blue-600 underline" href="https://www.credly.com/badges/45ad420b-f577-4001-8801-597c47d7e558" rel="noopener noreferrer" target="_blank">Credl[...]
   },
 ];
 
@@ -368,7 +370,7 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive outcomes, etc.)',
+      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impre[...]
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
