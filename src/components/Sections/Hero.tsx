@@ -32,16 +32,16 @@ const Hero: FC = memo(() => {
                 const isPdf = typeof href === 'string' && href.toLowerCase().endsWith('.pdf');
                 return (
                   <a
+                    aria-label={isPdf ? `${text} (PDF)` : undefined}
                     className={classNames(
-                      'flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 text-sm font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base',
+                      'flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 text-sm font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 focus:outline-none focus:ring-2 focus:ring-o[...]'
                       primary ? 'border-orange-500 ring-orange-500' : 'border-white ring-white',
                     )}
+                    download={isPdf}
                     href={href}
                     key={text}
-                    target={isPdf ? '_blank' : undefined}
                     rel={isPdf ? 'noopener noreferrer' : undefined}
-                    download={isPdf}
-                    aria-label={isPdf ? `${text} (PDF)` : undefined}
+                    target={isPdf ? '_blank' : undefined}
                   >
                     {text}
                     {Icon && <Icon className="h-5 w-5 text-white sm:h-6 sm:w-6" />}
