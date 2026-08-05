@@ -294,13 +294,13 @@ export const education: TimelineItem[] = [
     date: 'July 20, 2026',
     location: 'CompTIA',
     title: 'CompTIA Security+ Certification',
-    content: <p>Credential ID: a83b541afbad4b99adbdad3a245b26a0</p>,
+    content: <p>Credential ID: <a className="text-blue-600 underline" href="https://cp.certmetrics.com/CompTIA/en/public/verify/credential/a83b541afbad4b99adbdad3a245b26a0" rel="noopener noreferrer" target="_blank">a83b541afbad4b99adbdad3a245b26a0</a></p>,
   },
   {
     date: 'August 4, 2026',
     location: 'Anthropic',
     title: 'Claude Certified Architect - Foundations',
-    content: <p>Verification Link: <a href="https://www.credly.com/badges/45ad420b-f577-4001-8801-597c47d7e558" rel="noopener noreferrer" target="_blank">Credly</a></p>,
+    content: <p>Verification Link: <a className="text-blue-600 underline" href="https://www.credly.com/badges/45ad420b-f577-4001-8801-597c47d7e558" rel="noopener noreferrer" target="_blank">Credly</a></p>,
   },
 ];
 
