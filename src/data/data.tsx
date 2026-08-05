@@ -306,7 +306,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'May 2026 - August 2026',
+    date: 'May 2026 - Present',
     location: 'Trace3',
     title: 'Security Engineer Intern',
     content: (
