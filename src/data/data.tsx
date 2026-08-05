@@ -300,7 +300,7 @@ export const education: TimelineItem[] = [
     date: 'August 4, 2026',
     location: 'Anthropic',
     title: 'Claude Certified Architect - Foundations',
-    content: <p>Verification Link: <a href="https://www.credly.com/badges/45ad420b-f577-4001-8801-597c47d7e558" target="_blank" rel="noopener noreferrer">Credly</a></p>,
+    content: <p>Verification Link: <a href="https://www.credly.com/badges/45ad420b-f577-4001-8801-597c47d7e558" rel="noopener noreferrer" target="_blank">Credly</a></p>,
   },
 ];
 
