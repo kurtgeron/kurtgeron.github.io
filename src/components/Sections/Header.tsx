@@ -37,7 +37,7 @@ const DesktopNav: FC<{navSections: SectionId[]; currentSection: SectionId | null
     const activeClass = classNames(baseClass, 'text-orange-500');
     const inactiveClass = classNames(baseClass, 'text-neutral-100');
     return (
-      <header className="fixed top-0 z-50 hidden w-full bg-neutral-900/50 p-4 backdrop-blur sm:block" id={headerID}>
+      <header className="fixed top-0 z-50 hidden w-full bg-neutral-900/50 p-4 backdrop-blur-md sm:block" id={headerID}>
         <nav className="flex justify-center gap-x-8">
           {navSections.map(section => (
             <NavItem
@@ -85,7 +85,7 @@ const MobileNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}
               leave="transition-opacity ease-linear duration-300"
               leaveFrom="opacity-100"
               leaveTo="opacity-0">
-              <Dialog.Overlay className="fixed inset-0 bg-stone-900 bg-opacity-75" />
+              <Dialog.Overlay className="fixed inset-0 bg-stone-900 bg-opacity-75 backdrop-blur-sm" />
             </Transition.Child>
             <Transition.Child
               as={Fragment}
