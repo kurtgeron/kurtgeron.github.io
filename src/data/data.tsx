@@ -200,9 +200,9 @@ export const skills: SkillGroup[] = [
   },
 ];
 
-/**
- * Portfolio section
- */
+/*
+  Portfolio section
+ 
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Project title 1',
@@ -271,7 +271,7 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage11,
   },
 ];
-
+*/
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
@@ -355,9 +355,9 @@ export const experience: TimelineItem[] = [
   },
 ];
 
-/**
- * Testimonial section
- */
+/*
+  Testimonial section
+ 
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
@@ -378,7 +378,7 @@ export const testimonial: TestimonialSection = {
     },
   ],
 };
-
+*/
 /**
  * Contact section
  */
