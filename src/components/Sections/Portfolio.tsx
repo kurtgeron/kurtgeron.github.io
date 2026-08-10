@@ -1,15 +1,15 @@
-import {ArrowTopRightOnSquareIcon} from '@heroicons/react/24/outline';
-import classNames from 'classnames';
-import Image from 'next/image';
-import {FC, memo, MouseEvent, useCallback, useEffect, useRef, useState} from 'react';
+//import {ArrowTopRightOnSquareIcon} from '@heroicons/react/24/outline';
+//import classNames from 'classnames';
+//import Image from 'next/image';
+//import {FC, memo, MouseEvent, useCallback, useEffect, useRef, useState} from 'react';
 
-import {isMobile} from '../../config';
-import {portfolioItems, SectionId} from '../../data/data';
-import {PortfolioItem} from '../../data/dataDef';
-import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
-import Section from '../Layout/Section';
+//import {isMobile} from '../../config';
+//import {portfolioItems, SectionId} from '../../data/data';
+//import {PortfolioItem} from '../../data/dataDef';
+//import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
+//import Section from '../Layout/Section';
 
-const Portfolio: FC = memo(() => {
+/* const Portfolio: FC = memo(() => {
   return (
     <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col gap-y-8">
@@ -31,14 +31,14 @@ const Portfolio: FC = memo(() => {
           })}
         </div>
       </div>
-    </Section>
-  );
-});
+    </Section> 
+  ); 
+}); */
 
-Portfolio.displayName = 'Portfolio';
-export default Portfolio;
+//Portfolio.displayName = 'Portfolio';
+//export default Portfolio;
 
-const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, description}}) => {
+/* const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, description}}) => {
   const [mobile, setMobile] = useState(false);
   const [showOverlay, setShowOverlay] = useState(false);
   const linkRef = useRef<HTMLAnchorElement>(null);
@@ -81,4 +81,4 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
       </div>
     </a>
   );
-});
+}); */

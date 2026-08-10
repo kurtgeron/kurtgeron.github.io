@@ -14,29 +14,29 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 //import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 //import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/landingUM-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+//import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+//import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+//import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+//import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+//import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+//import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+//import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+//import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+//import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+//import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+//import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
+//import testimonialImage from '../images/testimonial.webp';
 import {
   About,
   ContactSection,
   ContactType,
   Hero,
   HomepageMeta,
-  PortfolioItem,
+  //PortfolioItem,
   SkillGroup,
   Social,
-  TestimonialSection,
+  //TestimonialSection,
   TimelineItem,
 } from './dataDef';
 
@@ -55,11 +55,11 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
-  Portfolio: 'portfolio',
+  //Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
-  Testimonials: 'testimonials',
+  //Testimonials: 'testimonials',
 } as const;
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
@@ -200,9 +200,9 @@ export const skills: SkillGroup[] = [
   },
 ];
 
-/**
- * Portfolio section
- */
+/*
+  Portfolio section
+ 
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Project title 1',
@@ -271,7 +271,7 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage11,
   },
 ];
-
+*/
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
@@ -355,9 +355,9 @@ export const experience: TimelineItem[] = [
   },
 ];
 
-/**
- * Testimonial section
- */
+/*
+  Testimonial section
+ 
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
@@ -378,7 +378,7 @@ export const testimonial: TestimonialSection = {
     },
   ],
 };
-
+*/
 /**
  * Contact section
  */
