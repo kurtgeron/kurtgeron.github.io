@@ -35,8 +35,8 @@ import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
   ); 
 }); */
 
-Portfolio.displayName = 'Portfolio';
-export default Portfolio;
+//Portfolio.displayName = 'Portfolio';
+//export default Portfolio;
 
 const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, description}}) => {
   const [mobile, setMobile] = useState(false);
