@@ -31,7 +31,7 @@ const Portfolio: FC = memo(() => {
           })}
         </div>
       </div>
-    </Section>
+    //</Section>
   );
 });
 
