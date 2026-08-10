@@ -9,8 +9,8 @@ import {PortfolioItem} from '../../data/dataDef';
 import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
 //import Section from '../Layout/Section';
 
-const Portfolio: FC = memo(() => {
-  /* return (
+/* const Portfolio: FC = memo(() => {
+  return (
     <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col gap-y-8">
         <h2 className="self-center text-xl font-bold text-white">Check out some of my work</h2>
@@ -32,8 +32,8 @@ const Portfolio: FC = memo(() => {
         </div>
       </div>
     </Section> 
-  ); */
-});
+  ); 
+}); */
 
 Portfolio.displayName = 'Portfolio';
 export default Portfolio;
